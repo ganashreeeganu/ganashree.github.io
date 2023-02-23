@@ -1,53 +1,34 @@
-@import 'config';
-@import 'home';
-body {
-    background: $primary-color;
-    color:#fff;
-    height: 100vh;
-    line-height:1;
+$bg-primary:blue;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sr-btn{
+    background-color: white;
+    color:$bg-primary;
+    font-weight: 600;
+}
+.sr-btn:hover{
+    background-color: white;
+    color: $bg-primary;
+    font-weight: 600;
 }
 
-h1,  h2 {
-    font-weight: 400;
+.navbar-brand{
+    font-weight: 800;
 }
 
-a{
-    color: #fff;
-    text-decoration: none;
+.cart-btn{
+    margin-left: 7px;
+    background-color: white;
+    color: $bg-primary;
+    font-weight: 600;
 }
 
-header{
-    position:fixed;
-    z-index: 2;
-    width: 100%;
-    padding: 1rem;
-}
-
-main{
-    height: 100%;
-    width: 100%;
-
- .social-icons{
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
-
-    a{
-        padding: 0.4rem;
-        @include transition-ease;
-        &:hover{
-            color: $secondary-color;
-        }
-    }
-  }
-}
-
-footer{
-    font-size:1rem;
-    position: fixed;
-    bottom: 0.4rem;
-    right:1rem;
-    text-align: right;
-    padding: 1rem;
-    color:set-tect-color($primary-color);
+.cart-btn:hover{
+    background-color: white;
+    color: $bg-primary;
+    font-weight: 600;
 }

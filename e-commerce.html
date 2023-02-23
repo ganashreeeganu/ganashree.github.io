@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="TE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,800;1,400;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" href="sass/main.css">
+        <title>e-commerce</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">LOGO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Brands
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Addidas</a></li>
+                      <li><a class="dropdown-item" href="#">PUMA</a></li>
+                      <li><a class="dropdown-item" href="#">Gucci</a> </li>
+                      <li><a class="dropdown-item" href="#">Prada</a></li>
+                      <li><a class="dropdown-item" href="#">View More <i class="fa-solid fa-chevron-right"></i></a></li>
+                      
+                    </ul>
+                </li>
+                </ul>
+                <form class="d-flex">
+
+
+                </form>
+              </div>
+
+              <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn sr-btn" type="submit">Search</button>
+                  <button class="btn cart-btn" type="button"><i class="fa-regular fa-user"></i></button>
+                  <button class="btn cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" 
+                  aria-controls="offcanvasRight"><i class="fa-solid fa-bag-shopping"></i></button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Your Cart <i class="fa-solid fa-cart-shopping"></i></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+             </div>
+            <div class="offcanvas-body">
+              <div class="text-center">
+              No Item Available
+              </div>
+            </div>
+            </div>
+                </form>
+            </div>
+          </nav>
+
+          <section class="content" style="background-color: bisque;">
+            <div class="row">
+                <div class="col-5">
+                  <img src="C:\Users\g\Pictures\shirt.jpg" width="75%" height="500px">
+                  <div class="btn" style="margin-right:25px; margin-top:700px ;padding-right:5%;">
+                    <button class="button" style="background-color:rgb(65, 216, 218);">BUY</button>
+                  </div>
+                </div>
+
+                <div class="col-7">
+                  <div>
+                   <h3>FACON BLUE SHIRT</h3>
+                   <p>Rs.999</p>
+                    <hr>
+                    <p><strike>Rs.999</strike>
+                      Rs.333 now and rest later in 2 intrest free payments via SNITCHPAY</p>
+                    <hr>
+                  </div>
+                    <p><b>PRODUCT SPECIFICATION</b></p>
+                      <div>
+                        <ul>
+                          <li>Full Sleeves</li>
+                          <li>Stripe Pattern</li>
+                          <li>Spread Collar</li>
+                          <li>Curved Hem Design</li>
+                          <li>Spare Button Included</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <i><b>FABRIC:</b></i><P>100% Rayon.</P>
+                        <i><b>FIT:</b></i><P>Model is wearing a M size</P>
+                        <i><b>SIZE:</b></i><P>6 Feet</P>
+                        <h4><i>WASH CARE:</i></h4><P> Cold machine wash.For more deatails see the care label attached</P>
+                      </div>
+                      <p><emp> COLOUR</emp></p>
+                      <button class="button">Blue</button>
+                      <p>SIZE</p>
+                      <button class="button">M</button>   
+                       <button class="button">L</button>    
+                       <button class="button">XL</button>   
+                       <button class="button">XXL</button>
+                  </div>
+
+                </div>
+            </div>
+          </section>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+         crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
+        crossorigin="anonymous"></script>
+    </body>
+</html>
